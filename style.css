@@ -1,0 +1,201 @@
+body {
+	background: url(background.png);
+}
+
+table {
+	border: 1px solid silver;
+	margin-left: 20%;
+	margin-top: 5%;
+	border-spacing: 0;
+	box-shadow: 3px 3px 10px rgba(0,0,0,0.5);
+	background-color: rgba(255,255,255,1);
+}
+
+th {
+	width: 30px;
+	padding: 15px;
+	border: 1px solid gray;
+	background: lightblue;
+	text-align: center;
+}
+
+td {
+	padding: 15px;
+	border: 1px solid gray;
+	text-align: center;
+	cursor: pointer;
+}
+
+input {
+	background-color: rgba(0,0,0,0.001);
+	height: auto;
+	width: auto;
+	border: none;
+	margin: 0;
+}
+
+#example {
+	display: inline-block;
+	width: 300px;
+	position: absolute;
+	margin-top: 4%;
+	font-size: 12px;
+	text-shadow: 2px 2px 7px rgba(0,0,0,0.5);
+}
+
+#inJson {
+	margin-top: 3%;
+	margin-left: 36%;
+	width: 700px;
+	min-height: 200px;
+	border: 2px solid rgba(0,0,0,0.3);
+	box-shadow: 1px 1px 30px rgba(0,0,0,0.1);
+	display: block;
+	font-size: 1.5em;
+}
+
+#fill {
+	background-color: green;
+	color: white;
+	font-size: 1.5em;
+	margin-left: 36%;
+	margin-top: 10px;
+	box-shadow: 1px 1px 10px rgba(0,0,0,0.5);
+	cursor: pointer;
+}
+
+#fill:hover {
+	box-shadow: 1px 1px 4px rgba(0,0,0,0.5);
+}
+
+#outJson {
+	margin-top: 5%;
+	margin-left: 36%;
+	width: 700px;
+	min-height: 200px;
+	border: 2px solid rgba(0,0,0,0.3);
+	font-size: 1.5em;
+	box-shadow: 1px 1px 30px rgba(0,0,0,0.1);
+}
+
+#delChosen {
+	height: 30px;
+	width: 250px;
+	background: rgba(255,0,0,0.8);
+	font-size: 1.5em;
+	box-shadow: 2px 2px 10px black;
+	cursor: pointer;
+	margin-left: 20%;
+
+}
+
+#delChosen:hover {
+	box-shadow: 1px 1px 10px black;
+	
+}
+
+#delChosen:active {
+	box-shadow: none;
+	
+}
+
+#addRow {
+	height: 30px;
+	width: 200px;
+	background: rgba(255,250,50,0.7);
+	margin-top: 30px;
+	margin-left: 1%;
+	font-size: 1.5em;
+	box-shadow: 2px 2px 10px black;
+	cursor: pointer;
+}
+
+
+#addRow:hover {
+	box-shadow: 1px 1px 10px black;
+	
+}
+
+
+#addRow:active {
+	box-shadow: none;
+
+}
+
+
+#go {
+	height: 30px;
+	width: 220px;
+	background: lightgreen;
+	margin-top: 30px;
+	margin-left: 1%;
+	font-size: 1.5em;
+	box-shadow: 2px 2px 10px black;
+	cursor: pointer;
+}
+
+#go:hover {
+	box-shadow: 1px 1px 10px black;
+}
+
+#go:active {
+	box-shadow: none;
+}
+
+#choosen {
+	height: 30px;
+	width: 265px;
+	background: lightblue;
+	margin-top: 30px;
+	margin-left: 1%;
+	font-size: 1.5em;
+	box-shadow: 2px 2px 10px black;
+	cursor: pointer;
+}
+
+#choosen:hover {
+	box-shadow: 1px 1px 10px black;
+}
+
+#choosen:active {
+	box-shadow: none;
+}
+
+.del {
+	width: 100px;
+	display: inline-block;
+	height: 50px;
+	padding-top: 10px;
+	margin-top: 10px;
+	cursor: pointer;
+	background: rgba(255,50,50,0.8);
+}
+
+#newTable {
+	height: 30px;
+	width: 355px;
+	background: blue;
+	color: white;
+	display: block;
+	margin-left: 20%;
+	margin-top: 1%;
+	font-size: 1.5em;
+	box-shadow: 2px 2px 10px black;
+	cursor: pointer;
+}
+
+#newTable:hover {
+	box-shadow: 1px 1px 10px black;
+}
+
+#newTable:active {
+	box-shadow: none;
+}
+
+#formedTable {
+	background-color: rgba(255,255,255,0.05);
+}
+
+#formedTable > th, td {
+	background-color: rgba(255,255,255,1);
+}

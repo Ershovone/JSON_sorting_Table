@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>table</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<script src="main.js" async></script>
+</head>
+<body>
+	<div id="example">
+		<p><b>JSON for testing:</b></p>
+		<p><b>[{"id":"1","name":"Ivan","age":"25","friends":"5","group":"A"},{"id":"2","name":"Maria","age":"23","friends":"10","group":"B"},{"id":"3","name":"Alex","age":"47","friends":"3","group":"C"},{"id":"4","name":"James","age":"34","friends":"12","group":"D"},{"id":"5","name":"Nikolay","age":"61","friends":"11","group":"A"},{"id":"6","name":"Daria","age":"19","friends":"10","group":"C"},{"id":"7","name":"Johny","age":"42","friends":"11","group":"A"},{"id":"8","name":"Julia","age":"42","friends":"5","group":"D"},{"id":"9","name":"Sergey","age":"17","friends":"4","group":"A"},{"id":"10","name":"Vladimir","age":"55","friends":"10","group":"C"},{"id":"11","name":"Ryan","age":"39","friends":"15","group":"B"},{"id":"12","name":"Horhe","age":"33","friends":"9","group":"D"}]</b></p>
+	</div>
+	<textarea id="inJson" placeholder="Input some information in JSON"></textarea>
+	<input type="button" name="fill" value="Add The Table" id="fill" onclick="getD(), createTable(data)">
+	<table id="table" class="sort" cellspacing="4px"></table>
+	<input type="button" name="delChosen" value="Delete Chosen" id="delChosen" onclick="delRow()">
+	<input type="button" name="addRow" value="Add the String" id="addRow" onclick="addingRow()">
+	<input id="go" type="button" name="go" value="Send DATA" onclick="go()" >
+	<input type="button" name="sendChoosen" value="Send Chosen" onclick="checkedSend()" id="choosen">
+	<input type="button" name="newTable" value="Create Additional Table" id="newTable" onclick=" getFormD(), formTable(formData)">
+	<table id="formedTable"></table>
+	<textarea id="outJson"></textarea>
+</body>
+</html>
